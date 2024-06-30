@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='obiwandre',
-    version='0.1.1.0.0',
+    version='0.1.1.0.1',
     packages=find_packages(),
     install_requires=[
         # lista de dependências
@@ -20,3 +20,22 @@ setup(
         'Operating System :: OS Independent',
     ],
 )
+
+[project]
+name = "obiwandre"
+version = "0.0.1"
+authors = [
+  { name="obiwandre", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/obiwandre/obiwandre"
+Issues = "https://github.com/obiwandre/obiwandre/issues"
