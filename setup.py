@@ -13,7 +13,7 @@ setup(
     description='Biblioteca de instalação de módulos privados',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/obiwandre/obiwandre.git',
+    url='https://github.com/obiwandre/obiwandre',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
